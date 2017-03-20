@@ -1,0 +1,144 @@
+body {
+    background-color: lightblue;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+	margin-left: 20px;
+	margin-top: 20px;
+    padding: 50px; 
+    width: 90%;
+    height: 70%;    
+}
+#rcornerslog {
+    border-radius: 25px;
+    background: #ffffff;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+    padding: 50px; 
+    width: 70%;
+    height: 40%;    
+}
+#container{
+	   margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+#heads
+{
+	font-family: Century Gothic;
+	color : #FFA500;
+	text-align: center;
+	font-size: 40px;
+	margin-top:20px;
+}
+#sub-heads
+{
+	font-family: Century Gothic;
+	color : #007F00;
+	font-size: 30px;
+	margin-top: 20px;
+}
+#content
+{
+	font-family: Century Gothic;
+	color : #3232FF;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#HumanSkel
+{
+	height: auto; 
+    width: auto; 
+    max-width: 40%; 
+    max-height: 40%;
+	position: absolute;
+    top: 45%;
+	right: 30%;
+}
+
+#CodeSkel
+{
+	height: auto; 
+    width: auto; 
+    max-width: 50%; 
+    max-height: 50%;
+	position: absolute;
+    top: 50%;
+	left: 30%;
+}
+.button {
+  position : relative;
+  margin-top : 320px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  border: none;
+  border-radius: 15px;
+  height: auto; 
+  width: auto; 
+  max-width: 100px; 
+  max-height: 100px;
+}
+
+.button:hover {background-color:}
+
+.button:active {
+  transform: translateY(4px);
+}
+
+#Home {
+    border-radius: 25px;
+    background: #ffffff;
+	margin-left: 20px;
+	margin-top: 20px;
+    padding: 50px; 
+    width: 90%;
+    height: 80%;    
+}
+
+#HTMLButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 15%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#HTMLButton:active {
+	box-shadow: 0 5px #fff;
+	transform: translateY(4px);
+}
+
+
+#comp{
+	height: auto; 
+    width: auto; 
+    max-width: 40%; 
+    max-height: 40%;
+	position: absolute;
+    top: 45%;
+	right: 10%;
+}
+
+
+
+

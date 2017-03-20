@@ -1,0 +1,87 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styling.css"></link>
+    <script type="text/javascript" src="login.js"></script>
+</head>
+<body>
+
+
+<div id="rcornerslog">
+    <div id = "heads"> Login </div>
+    <div id = 'content'>
+        <form name="login">
+			Username<input type="text" id="userid" name="userid"/>
+			</br>
+			Password<input type="password" id = "pswrd" name="pswrd"/>
+			</br>
+			<input type="button" onclick="check(this.form)" value="Login"/>
+			<input type="reset" value="Cancel"/>
+		</form>
+		
+<script>
+  
+const url = 'http://127.0.0.1:8000/students/?format=json';
+const options= {method:null,headers:{name:null,value:null}};
+
+function fetch(url, options) 
+{
+  return new Promise(function(resolve, reject) 
+  {
+    var Req = new XMLHttpRequest();
+    Req.open("GET", url); 
+    Req.onload = function () {
+      if (Req.status >= 200 && Req.status < 300) {
+        resolve(JSON.parse(Req.response));
+      } else {
+        reject({
+          status: Req.status,
+          statusText: Req.statusText
+        });
+      }
+    };
+    Req.send();
+  }); 
+}
+
+
+function check(form)
+{  
+  var UserInput = document.getElementById('userid');
+  Username = UserInput.value;
+  var PasswordInput = document.getElementById('pswrd');
+  Password = PasswordInput.value;
+
+  fetch(url,options)
+  .then(function(data)
+  {
+      var toDo = [];
+      for(var i=0;i<data.length;i++){
+        toDo=data;
+      }
+  
+      for(var i=0; i<toDo.length;i++){
+        console.log(toDo[i].name)
+      }
+ 
+      for(var i=0;i<data.length;i++){
+        if(toDo[i].name==form.userid.value  && toDo[i].password == form.pswrd.value ){
+        location.replace("file://C:/Electron/main.html")
+      }
+   }
+})
+
+.catch(function(err)
+{
+  console.error(err);  
+});
+
+}     
+</script>      
+      
+      
+
+</div>
+</div>
+</body>
+</html>
+
