@@ -80,12 +80,13 @@ body {
   cursor: pointer;
   outline: none;
   color: #000;
-  border: none;
-  border-radius: 15px;
   height: auto; 
   width: auto; 
   max-width: 100px; 
   max-height: 100px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
 }
 
 .button:hover {background-color:}
@@ -94,6 +95,29 @@ body {
   transform: translateY(4px);
 }
 
+.button1 {
+  position : relative;
+  margin-top : 320px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  height: auto; 
+  width: auto; 
+  max-width: 100px; 
+  max-height: 100px;
+  position: absolute;
+  top: 39%;
+  left: 5%;
+}
+
+.button1:hover {background-color:}
+
+.button1:active {
+  transform: translateY(4px);
+}
 #Home {
     border-radius: 25px;
     background: #ffffff;
@@ -104,7 +128,7 @@ body {
     height: 80%;    
 }
 
-#HTMLButton{
+#HTMLTutorialButton{
 	padding: 15px 25px;
 	font-size: 24px;
 	text-align: center;
@@ -116,14 +140,151 @@ body {
 	box-shadow: 0 9px #fff;
 	position: absolute;
     top: 10%;
-	left: 15%;
+	left: 3%;
 	height: auto; 
     width: auto; 
     max-width: 30%; 
     max-height: 30%;
 }
 
-#HTMLButton:active {
+#HTMLTutorial2Button{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 28%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#CSSTutorialButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 53%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#ConventionTutorialButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 78%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+
+
+#HTMLQuizButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 3%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#HTMLQuiz2Button{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 28%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#CSSQuizButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 53%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#ConventionQuizButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 78%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+
+
+.ClickButton:active {
 	box-shadow: 0 5px #fff;
 	transform: translateY(4px);
 }

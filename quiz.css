@@ -1,6 +1,26 @@
 body {
     background-color: #77dd77;
 }
+#rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+	margin-left: 20px;
+	margin-top: 20px;
+    padding: 50px; 
+    width: 90%;
+    height: 70%;    
+}
+
+#congratstext{
+	font-family: Century Gothic;
+	font-size: 30px;
+	color : #FFA500;
+	margin-left: 610px;
+	margin-top: -300px;
+}
+
+
+
 
 #rcornersQuestion {
     border-radius: 25px;
@@ -58,17 +78,40 @@ body {
 }
 
 
-.button{
+#button{
 	border-radius: 2px;  
 	background-color: #ffffff;
 	width: 15%;
+    height: 10%;
+	font-family: Century Gothic;
+	color : #FFA500;
+	position: fixed;
+    bottom: 30%;
+    right: 44%;
+}
+
+#button1{
+	border-radius: 2px;  
+	background-color: #ffffff;
+	width: 15%;
+    height: 10%;
+	font-family: Century Gothic;
+	color : #FFA500;
+	position: fixed;
+    bottom: 10%;
+    right: 44%;
+}
+
+#mainmenu{
+	border-radius: 2px;  
+	background-color: #ffffff;
+	width: 25%;
     height: 15%;
 	font-family: Century Gothic;
 	color : #FFA500;
-	margin-left: 550px;
-	margin-top: -285px;
-
+	position: fixed;
+    bottom: 40%;
+    right: 20%;
+	font-size: 30px;
+	
 }
-
-
-

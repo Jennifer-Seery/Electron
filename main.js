@@ -4,6 +4,6 @@ const {app,BrowserWindow} = electron
 app.on('ready',() =>
 {
 	let win = new BrowserWindow({width:800, height:800})
-	win.loadURL(`file://${__dirname}/htmlquiz.html`)
+	win.loadURL(`file://${__dirname}/login.html`)
 })
 

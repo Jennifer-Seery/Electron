@@ -33,6 +33,9 @@ function change()
       content.innerHTML = 'Try not to have super long lines of code present. It can be hard to read and look funny ';
       document.getElementById('comp').src = "http://i65.tinypic.com/saw7te.png"
 	  break;
+  case 5: 
+     location.replace("file://C:/Electron/congrats.html")
+	 break;
   }	
 
 }

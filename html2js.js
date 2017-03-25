@@ -9,43 +9,43 @@ function change()
     case 0:
       var answer = document.getElementById('answer');
       answer = answer.value;
-      if(answer == "<html>"){
+      if(answer == "<img>"){
        counter = 1;
      }
     case 1:
       var subHeading = document.getElementById('answer');
       subHeading.innerHTML = " ";
       var subHeading = document.getElementById('Questions');
-      subHeading.innerHTML = "How do we correctly close a HTML         paragraph tag ? ";
+      subHeading.innerHTML = "What element is used in img elements to reference the image link ? ";
       var content = document.getElementById('Examples');
       content.innerHTML = " Similar tags : <html></html>" ;
       var answer = document.getElementById('answer');
       answer = answer.value;
-      if(answer == "</p>"){
+      if(answer == "src"){
         counter=2;
       }
 	  break;
        
   case 2:
       var subHeading = document.getElementById('Questions');
-      subHeading.innerHTML = "Display the phrase 'Hello World'         in a paragraph tag. ";
+      subHeading.innerHTML = "What element allows links to be put into the webpage ? ";
       var content = document.getElementById('Examples');
       content.innerHTML = " " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
-      if(answer == "<p> Hello World </p>"){
+      if(answer == "<a href>"){
         counter=3;
       }
 	  
 	  break;
   case 3:
       var subHeading = document.getElementById('Questions');
-      subHeading.innerHTML = "Create a heading using the h1 tag       to say 'HTML is easy'";
+      subHeading.innerHTML = "Create a image tage with a link called 'image.png'";
       var content = document.getElementById('Examples');
       content.innerHTML = " " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
-      if(answer == "<h1> HTML is easy </h1>"){
+      if(answer == "<h1> <img src='image.png'> </h1>"){
         counter=4;
       }
       
