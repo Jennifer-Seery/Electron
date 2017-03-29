@@ -1,0 +1,305 @@
+body {
+    background-color: #b9b9b9;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+	margin-left: 20px;
+	margin-top: 20px;
+    padding: 50px; 
+    width: 90%;
+    height: 70%;    
+}
+#rcornerslog {
+    border-radius: 25px;
+    background: #ffffff;
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+    padding: 50px; 
+    width: 70%;
+    height: 40%;    
+}
+#container{
+	   margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+#heads
+{
+	font-family: Century Gothic;
+	color : #2a2a2a;
+	text-align: center;
+	font-size: 40px;
+	margin-top:20px;
+}
+#sub-heads
+{
+	font-family: Century Gothic;
+	color : #545454;
+	font-size: 30px;
+	margin-top: 20px;
+}
+#content
+{
+	font-family: Century Gothic;
+	color : #7e7e7e;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#HumanSkel
+{
+	height: auto; 
+    width: auto; 
+    max-width: 40%; 
+    max-height: 40%;
+	position: absolute;
+    top: 45%;
+	right: 30%;
+}
+
+#CodeSkel
+{
+	height: auto; 
+    width: auto; 
+    max-width: 50%; 
+    max-height: 50%;
+	position: absolute;
+    top: 50%;
+	left: 30%;
+}
+.button {
+  position : relative;
+  margin-top : 320px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  height: auto; 
+  width: auto; 
+  max-width: 100px; 
+  max-height: 100px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.button:hover {background-color:}
+
+.button:active {
+  transform: translateY(4px);
+}
+
+.button1 {
+  position : relative;
+  margin-top : 320px;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  height: auto; 
+  width: auto; 
+  max-width: 100px; 
+  max-height: 100px;
+  position: absolute;
+  top: 39%;
+  left: 5%;
+}
+
+.button1:hover {background-color:}
+
+.button1:active {
+  transform: translateY(4px);
+}
+#Home {
+    border-radius: 25px;
+    background: #ffffff;
+	margin-left: 20px;
+	margin-top: 20px;
+    padding: 50px; 
+    width: 90%;
+    height: 80%;    
+}
+
+#HTMLTutorialButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 3%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#HTMLTutorial2Button{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 28%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#CSSTutorialButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 53%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#ConventionTutorialButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    top: 10%;
+	left: 78%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+
+
+#HTMLQuizButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 3%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#HTMLQuiz2Button{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 28%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#CSSQuizButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 53%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+#ConventionQuizButton{
+	padding: 15px 25px;
+	font-size: 24px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #fff;
+	position: absolute;
+    bottom: 10%;
+	left: 78%;
+	height: auto; 
+    width: auto; 
+    max-width: 30%; 
+    max-height: 30%;
+}
+
+
+
+.ClickButton:active {
+	box-shadow: 0 5px #fff;
+	transform: translateY(4px);
+}
+
+
+#comp{
+	height: auto; 
+    width: auto; 
+    max-width: 40%; 
+    max-height: 40%;
+	position: absolute;
+    top: 45%;
+	right: 10%;
+}
+
+
+
+

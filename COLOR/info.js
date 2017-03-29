@@ -1,5 +1,8 @@
-const url = 'https://sleepy-taiga-30424.herokuapp.com/students/';
+const url = 'https://api.myjson.com/bins/tudnb';
 const options= {method:null,headers:{name:null,value:null}};
+
+
+document.getElementById('css').href = styleGREY.css;
 
 
 function fetch(url, options) 
@@ -51,8 +54,7 @@ function check(form)
   
      for(var i=0;i<data.length;i++){
         if(toDo[i].name==Username  && toDo[i].password == Password ){
-          trigger1 = toDo[i].ColourFilter;
-		  trigger2 = toDo[i].SoundFilter;
+          trigger1 = toDo[i].trigger1;
 		  cssChange();
 		
           
@@ -74,28 +76,13 @@ function check(form)
 
 function cssChange(){
   
-  if(trigger1 === true && trigger2 == true ){
+  if(trigger1 === true){
 	  
 	location.replace("file:///C:/Electron/GREY/mainGREY.html")
    
   }
-  if(trigger1 === true && trigger2 == false ){
-	 //no color with music 
-	location.replace("file:///C:/Electron/GREYWM/mainGREY.html")
-   
+  else{
+	  location.replace("file:///C:/Electron/main.html")
   }
-  if(trigger1 === false && trigger2 == false ){
-
-	location.replace("file:///C:/Electron/COLORWM/main.html")
-   
-  }
-  
-  if(trigger1 === false && trigger2 == true ){
-	 //no color with music 
-	location.replace("file:///C:/Electron/COLOR/main.html")
-   
-  }
- 
- 
 }
 

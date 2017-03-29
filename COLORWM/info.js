@@ -1,5 +1,8 @@
-const url = 'https://sleepy-taiga-30424.herokuapp.com/students/';
+const url = 'http://127.0.0.1:8000/students/?format=json';
 const options= {method:null,headers:{name:null,value:null}};
+
+
+document.getElementById('css').href = styleGREY.css;
 
 
 function fetch(url, options) 
@@ -51,8 +54,8 @@ function check(form)
   
      for(var i=0;i<data.length;i++){
         if(toDo[i].name==Username  && toDo[i].password == Password ){
-          trigger1 = toDo[i].ColourFilter;
-		  trigger2 = toDo[i].SoundFilter;
+          trigger1 = toDo[i].trigger1;
+		  trigger2 = toDo[i].trigger2;
 		  cssChange();
 		
           
@@ -86,13 +89,13 @@ function cssChange(){
   }
   if(trigger1 === false && trigger2 == false ){
 
-	location.replace("file:///C:/Electron/COLORWM/main.html")
+	location.replace("file:///C:/Electron/COLOR/main.html")
    
   }
   
   if(trigger1 === false && trigger2 == true ){
 	 //no color with music 
-	location.replace("file:///C:/Electron/COLOR/main.html")
+	location.replace("file:///C:/Electron/COLORWM/main.html")
    
   }
  
