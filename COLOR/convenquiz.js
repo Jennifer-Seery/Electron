@@ -1,5 +1,8 @@
+//  Accompaning JS file for Conventions quiz
+
 var counter =0;
 
+// Validation of users answers and feeding into the next question.
 function change()
 {
    var wrong = document.getElementById('wrongAnswer');
@@ -76,6 +79,7 @@ function change()
 	  
 }	
 
+// Using the counter to display the correct hint
 function hint(){
 	
 	switch(counter){

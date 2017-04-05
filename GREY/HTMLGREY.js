@@ -1,6 +1,7 @@
 var HTMLcounter =0 ;  
 
 
+// Change slide forward
 function change()
 {
   HTMLcounter++;

@@ -1,3 +1,5 @@
+// Opening an electron window
+
 const electron = require('electron')
 const {app,BrowserWindow} = electron
 

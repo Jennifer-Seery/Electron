@@ -1,6 +1,6 @@
 var counter =0 ;  
 
-
+// Going through info forward
 function change()
 {
   counter++;
@@ -47,6 +47,7 @@ function change()
 
 }
 
+// Going back through tutorial slides
 function changeBack(){
 	counter--;
 		switch(counter){

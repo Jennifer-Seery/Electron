@@ -1,5 +1,6 @@
 var counter =0;
 
+//Validate User Answers
 function change()
 {
   var wrong = document.getElementById('wrongAnswer');

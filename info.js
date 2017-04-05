@@ -1,7 +1,10 @@
+// Java Script Login Page
+
+// Setting Variables
 const url = 'https://sleepy-taiga-30424.herokuapp.com/students/';
 const options= {method:null,headers:{name:null,value:null}};
 
-
+// Layout of the fetch function
 function fetch(url, options) 
 {
   return new Promise(function(resolve, reject) 
@@ -22,7 +25,7 @@ function fetch(url, options)
   }); 
 }
 
-
+// Global vars
 var UserInput = document.getElementById('userid');
 Username = UserInput.value;
 var PasswordInput = document.getElementById('pswrd');
@@ -31,24 +34,25 @@ var toDo = [];
 var trigger1;
 var trigger2;
 
+
+// Function called after the login button is pressed.
 function check(form)
 {  
   
-
+  // Fetch called 
   fetch(url,options)
   .then(function(data)
   {
     
     Username = form.userid.value;
     Password = form.pswrd.value
-    
-    
-    console.log(Username);
-     
+
+	// Storing recieved data into an array
       for(var i=0;i<data.length;i++){
         toDo=data;
       }
   
+	// Validating User and Storing Triggers
      for(var i=0;i<data.length;i++){
         if(toDo[i].name==Username  && toDo[i].password == Password ){
           trigger1 = toDo[i].ColourFilter;
@@ -72,6 +76,7 @@ function check(form)
 
 }     
 
+// Function to bring user to the right version with their trigger implemented.
 function cssChange(){
   
   if(trigger1 === true && trigger2 == true ){

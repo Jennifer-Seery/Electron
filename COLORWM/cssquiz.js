@@ -1,5 +1,6 @@
 var counter =0;
 
+// CSS quiz validation
 function change()
 {
   var wrong = document.getElementById('wrongAnswer');
@@ -77,7 +78,7 @@ function change()
 	  
 }	
 
-
+// Hints to be given
 function hint(){
 	
 	switch(counter){

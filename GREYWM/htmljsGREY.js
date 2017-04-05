@@ -1,5 +1,6 @@
 var counter =0;
 
+//User Validation
 function change()
 {
   
@@ -79,6 +80,7 @@ function change()
 	  
 }	
 
+//Display hint
 function hint(){
 	
 	switch(counter){

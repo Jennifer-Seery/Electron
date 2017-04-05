@@ -1,6 +1,6 @@
 var counter =0 ;  
 
-
+// Change slide forward
 function change()
 {
   counter++;
@@ -47,6 +47,7 @@ function change()
 
 }
 
+//Change slide back
 function changeBack(){
 	counter--;
 	switch(counter){

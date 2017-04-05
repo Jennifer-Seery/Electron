@@ -1,6 +1,6 @@
 var HTMLcounter =0 ;  
 
-
+// Changing slide content
 function change()
 {
   HTMLcounter++;
@@ -48,6 +48,7 @@ function change()
 
 }
 
+// Changing back to previous slide
 function changeBack(){
 	HTMLcounter--;
     console.log(HTMLcounter);

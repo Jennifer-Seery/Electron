@@ -1,6 +1,6 @@
 var HTMLcounter =0 ;  
 
-
+//Changing slide forward
 function change()
 {
   HTMLcounter++;
@@ -48,6 +48,7 @@ function change()
 
 }
 
+// Change slide back
 function changeBack(){
 	HTMLcounter--;
     console.log(HTMLcounter);

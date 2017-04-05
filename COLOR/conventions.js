@@ -1,6 +1,7 @@
+
 var counter =0 ;  
 
-
+// Dynamically changing questions forward
 function change()
 {
   counter++;
@@ -40,6 +41,7 @@ function change()
 
 }
 
+//Changing Questions Back
 function changeBack(){
 	counter--;
     switch(counter){

@@ -1,5 +1,6 @@
 var counter =0;
 
+// Validating Answers and moving forward
 function change()
 {
    var wrong = document.getElementById('wrongAnswer');
@@ -80,7 +81,7 @@ function change()
 }	
 
 
-
+// Displaying correct hint
 function hint(){
 	
 	switch(counter){

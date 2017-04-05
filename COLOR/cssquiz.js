@@ -1,3 +1,4 @@
+// Validating Answers in CSS Quiz
 var counter =0;
 
 function change()
@@ -77,7 +78,7 @@ function change()
 	  
 }	
 
-
+// Displaying correct hint
 function hint(){
 	
 	switch(counter){
