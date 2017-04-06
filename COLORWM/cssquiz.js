@@ -25,7 +25,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "What element is used to set background color ?";
       var content = document.getElementById('Examples');
-      content.innerHTML = " Similar tags : <html></html>" ;
+      content.innerHTML = " " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "background-color"){

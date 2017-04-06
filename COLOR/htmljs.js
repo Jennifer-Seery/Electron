@@ -26,7 +26,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "How do we correctly close a HTML         paragraph tag ? ";
       var content = document.getElementById('Examples');
-      content.innerHTML = " Similar tags : <html></html>" ;
+      content.innerHTML = " " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "</p>"){
@@ -112,6 +112,3 @@ function hint(){
 }
 
 }
-
-
-

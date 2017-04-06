@@ -26,7 +26,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "What element is used in img elements to reference the image link ? ";
       var content = document.getElementById('Examples');
-      content.innerHTML = " Similar tags : <html></html>" ;
+      content.innerHTML = " <<'TAGNAME'>>" ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "src"){
@@ -44,7 +44,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "What element allows links to be put into the webpage ? ";
       var content = document.getElementById('Examples');
-      content.innerHTML = " " ;
+      content.innerHTML = " Reference Tags " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "<a href>"){
@@ -61,7 +61,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "Create a image tag with a link called 'image.png'";
       var content = document.getElementById('Examples');
-      content.innerHTML = " " ;
+      content.innerHTML = " TAG + SRC " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "<h1> <img src='image.png'> </h1>"){

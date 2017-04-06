@@ -23,9 +23,9 @@ function change()
       var subHeading = document.getElementById('answer');
       subHeading.innerHTML = " ";
       var subHeading = document.getElementById('Questions');
-      subHeading.innerHTML = "How do we correctly close a HTML         paragraph tag ? ";
+      subHeading.innerHTML = "How do we correctly close a HTML paragraph tag ? ";
       var content = document.getElementById('Examples');
-      content.innerHTML = " Similar tags : <html></html>" ;
+      content.innerHTML = " Similar tag to html '" ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "</p>"){
@@ -40,9 +40,9 @@ function change()
   var wrong = document.getElementById('wrongAnswer');
 	  wrong.innerHTML = "    ";
       var subHeading = document.getElementById('Questions');
-      subHeading.innerHTML = "Display the phrase 'Hello World'         in a paragraph tag. ";
+      subHeading.innerHTML = "Display the phrase 'Hello World' in a paragraph tag. ";
       var content = document.getElementById('Examples');
-      content.innerHTML = " " ;
+      content.innerHTML = " TAGHERE Hello World TAGHERE " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "<p> Hello World </p>"){
@@ -59,7 +59,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "Create a heading using the h1 tag       to say 'HTML is easy'";
       var content = document.getElementById('Examples');
-      content.innerHTML = " " ;
+      content.innerHTML = " TAGHERE HTML is easy TAGHERE" ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "<h1> HTML is easy </h1>"){

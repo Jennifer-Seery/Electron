@@ -14,6 +14,8 @@ function change()
 		var wrong = document.getElementById('wrongAnswer');
 		wrong.innerHTML = "Not quite there yet ! Keep it up ";
 		}
+	 var answer = document.getElementById('answer');
+	 answer.innerHTML = "    ";
   
   switch(counter){
       

@@ -26,7 +26,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "True or False. Code grouping is best practice.";
       var content = document.getElementById('Examples');
-      content.innerHTML = " Similar tags : <html></html>" ;
+      content.innerHTML = " " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "true" || answer == "True"){
@@ -60,7 +60,7 @@ function change()
       var subHeading = document.getElementById('Questions');
       subHeading.innerHTML = "True or False. Lines should be nice and long.";
       var content = document.getElementById('Examples');
-      content.innerHTML = " " ;
+      content.innerHTML = "  " ;
       var answer = document.getElementById('answer');
       answer = answer.value;
       if(answer == "false" || answer == "False"){
